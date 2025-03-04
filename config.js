@@ -13,7 +13,7 @@ export const BADGES = {
   ELECTRIC:
     "https://f2.toyhou.se/file/f2-toyhou-se/images/57771500_VEeZTR9rNNkSxkD.png",
   ICE: "https://f2.toyhou.se/file/f2-toyhou-se/images/57771587_XBalRb0HxiJkdUT.png",
-  FIGHT:
+  FIGHTING:
     "https://f2.toyhou.se/file/f2-toyhou-se/images/57771658_74zWFIYPh0tPuB4.png",
   POISON:
     "https://f2.toyhou.se/file/f2-toyhou-se/images/57771757_Z5mYNRTnaWMUqVr.png",

@@ -1,0 +1,42 @@
+@media (max-width: 1100px) {
+    p {
+        max-width: 200px;
+    }
+    #team > div {
+        max-width: 100px;
+    }
+}
+@media (max-width: 750px) {
+    h2 {
+        font-size: 14px;
+    }
+    #sprites-wrapper {
+        width: 50vw;
+    }
+    #team-wrapper,
+    #select-pokemon-wrapper {
+        width: 25vw;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    p {
+        font-size: 12px;
+        max-width: 120px;
+        right: 20px;
+        top: 0px;
+    }
+    #sprites-wrapper,
+    #team-wrapper,
+    #select-pokemon-wrapper {
+        width: 33vw;
+    }
+    #sprites {
+        justify-content: center;
+    }
+    .weak-against {
+        margin: 0;
+    }
+}
+  

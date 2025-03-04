@@ -5,44 +5,7 @@ export const removeDuplicates = (arr) => {
 };
 
 export const getTypeBadge = (type) => {
-  switch (type) {
-    case "normal":
-      return `<img src="${BADGES.NORMAL}"/>`;
-    case "fire":
-      return `<img src="${BADGES.FIRE}"/>`;
-    case "water":
-      return `<img src="${BADGES.WATER}"/>`;
-    case "grass":
-      return `<img src="${BADGES.GRASS}"/>`;
-    case "electric":
-      return `<img src="${BADGES.ELECTRIC}"/>`;
-    case "ice":
-      return `<img src="${BADGES.ICE}"/>`;
-    case "fighting":
-      return `<img src="${BADGES.FIGHT}"/>`;
-    case "poison":
-      return `<img src="${BADGES.POISON}"/>`;
-    case "ground":
-      return `<img src="${BADGES.GROUND}"/>`;
-    case "flying":
-      return `<img src="${BADGES.FLYING}"/>`;
-    case "psychic":
-      return `<img src="${BADGES.PSYCHIC}"/>`;
-    case "bug":
-      return `<img src="${BADGES.BUG}"/>`;
-    case "rock":
-      return `<img src="${BADGES.ROCK}"/>`;
-    case "ghost":
-      return `<img src="${BADGES.GHOST}"/>`;
-    case "dragon":
-      return `<img src="${BADGES.DRAGON}"/>`;
-    case "dark":
-      return `<img src="${BADGES.DARK}"/>`;
-    case "steel":
-      return `<img src="${BADGES.STEEL}"/>`;
-    case "fairy":
-      return `<img src="${BADGES.FAIRY}"/>`;
-  }
+  return `<img src="${BADGES[type.toUpperCase()]}"/>`;
 };
 
 export const getTotalBaseStats = (pokemon) => {
